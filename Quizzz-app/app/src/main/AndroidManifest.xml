@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="se.ju.stos1605.quizzz">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:screenOrientation="portrait"
+        android:allowBackup="true"
+        android:icon="@drawable/baseline_help_black_18dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/baseline_help_black_18dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".SelectDifficultyActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".QuestionActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ChooseNameActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".FindPlayerActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+
+</manifest>

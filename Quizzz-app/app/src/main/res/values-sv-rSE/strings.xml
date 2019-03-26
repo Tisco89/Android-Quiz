@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizzz</string>
+    <string name="start_single_player">Starta Single Player</string>
+    <string name="start_multi_player">Starta Multiplayer</string>
+    <string name="select_difficulty">Välj svårighetsgrad</string>
+    <string name="easy">Lätt</string>
+    <string name="hard">Svår</string>
+    <string name="medium">Medel</string>
+    <string name="question">Fråga</string>
+    <string name="answer_1">Svar 1</string>
+    <string name="answer_2">Svar 2</string>
+    <string name="answer_3">Svar 3</string>
+    <string name="answer_4">Svar 4</string>
+    <string name="whats_your_name">Vad heter du?</string>
+    <string name="find_player">Gå till Lobby</string>
+    <string name="find_opponent">Hitta motståndare</string>
+    <string name="startpage">Gå tillbaka till startsida</string>
+    <string name="Opponent_score">Motståndarens poäng</string>
+    <string name="Your_score">Din poäng: </string>
+    <string name="result_multiplayer_win">Du vann!</string>
+    <string name="result_multiplayer_lose">Du förlorade!</string>
+    <string name="result_multiplayer_tie">Oavgjort!</string>
+    <string name="high_score">Bra gjort</string>
+    <string name="type_your_name">Skriv ditt namn</string>
+    <string name="name">Namn</string>
+    <string name="done">Klar!</string>
+    <string name="secunds_remaining">Sekunder kvar: </string>
+    <string name="splash">Varning - Quizzz kan vara beroendeframkallande </string>
+    <string name="search">Söker efter motståndare... </string>
+    <string name="no_bluetooth">Bluetooth stödjs ej.</string>
+    <string name="alert">Varning</string>
+    <string name="OK">OK</string>
+    <string name="fetching">Hämtar frågor</string>
+    <string name="discoverable">Gör enhet upptäckbar</string>
+    <string name="question_counter">Fråga: </string>
+    <string name="opponent_left">Motståndaren har lämnat spelet </string>
+    <string name="error_fetching_questions">Fel vid hämtning av frågor </string>
+    <string name="wrong_message">Någonting gick fel, tappade anslutning med motståndare </string>
+    <string name="vs"> mot </string>
+    <string name="logo">Logo</string>
+    <string name="question_0_10">Fråga 0/10</string>
+    <string name="location_warning"> Behöver tillgång till din position för att applikationen ska fungera. Var vänlig försök igen.</string>
+    <string name="opponent_didnt_respond"> Motståndaren svarar inte.</string>
+
+</resources>

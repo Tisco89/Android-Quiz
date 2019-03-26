@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="100" />
+
+    <TextView
+        android:id="@+id/questionCounterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_0_10"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5sp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/question_box"
+        android:ellipsize="none"
+        android:fontFamily=""
+        android:gravity="center"
+        android:maxLines="3"
+
+
+        android:text="@string/question"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewCountDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarButtonStyle">
+
+        <Button
+            android:textColor="#ffff"
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/button1"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_button"
+            android:ellipsize="none"
+
+            android:fontFamily=""
+            android:gravity="center"
+            android:maxLines="3"
+            android:onClick="button1Clicked"
+            android:text="@string/answer_1"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="#ffff"
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/button2"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_button"
+            android:ellipsize="none"
+
+            android:fontFamily=""
+            android:gravity="center"
+            android:maxLines="3"
+            android:onClick="button2Clicked"
+            android:text="@string/answer_2"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="?android:attr/buttonBarButtonStyle">
+
+        <Button
+            android:textColor="#ffff"
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_button"
+            android:ellipsize="none"
+
+            android:fontFamily=""
+            android:gravity="center"
+            android:maxLines="3"
+            android:onClick="button3Clicked"
+            android:text="@string/answer_3"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="#ffff"
+            style="?android:attr/buttonBarButtonStyle"
+
+            android:id="@+id/button4"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle_button"
+            android:ellipsize="none"
+
+            android:fontFamily=""
+            android:gravity="center"
+            android:maxLines="3"
+            android:onClick="button4Clicked"
+            android:text="@string/answer_4"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
